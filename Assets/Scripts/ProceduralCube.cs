@@ -29,7 +29,7 @@ public class ProceduralCube : MonoBehaviour
         meshRenderer.materials = materialList.ToArray();
     }
 
-    void MakeCube(float cubeScale, Vector3 cubePos)
+    public void MakeCube(float cubeScale, Vector3 cubePos)
     {
         //gets the faces and uses them to build the cube
         vertices = new List<Vector3>();
